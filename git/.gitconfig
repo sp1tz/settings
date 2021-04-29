@@ -1,0 +1,7 @@
+[user]
+	name = sp1tz
+	email = 42953063+sp1tz@users.noreply.github.com
+[core]
+	autocrlf = input
+	editor = nano
+	excludesfile = ~/.gitignore
