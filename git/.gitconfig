@@ -5,3 +5,5 @@
 	autocrlf = input
 	editor = nano
 	excludesfile = ~/.gitignore
+[pull]
+	rebase = true
