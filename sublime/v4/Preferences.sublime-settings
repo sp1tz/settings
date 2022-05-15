@@ -7,7 +7,7 @@
   // Sets the colors used within the text area.
   // The value "auto" will switch between the "light_color_scheme" and
   // "dark_color_scheme" based on the operating system appearance.
-  "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+  "color_scheme": "Mariana.sublime-color-scheme",
 
   // Controls the "color_scheme" when set to "auto"
   "light_color_scheme": "Breakers.sublime-color-scheme",
@@ -18,7 +18,7 @@
   // Because of this, setting them here will have no effect: you must set them
   // in your User File Preferences.
   "font_face": "",
-  "font_size": 12,
+  "font_size": 16,
 
   // Valid options on all platforms are:
   //  - "no_bold": Disables bold text
@@ -783,5 +783,6 @@
 
   // List any packages to ignore here. When removing entries from this list,
   // a restart may be required if the package contains plugins.
-  "ignored_packages": ["Vintage"],
+  "ignored_packages": ["Vintage",
+  ],
 }
