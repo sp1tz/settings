@@ -7,3 +7,5 @@
 	excludesfile = ~/.gitignore
 [pull]
 	rebase = true
+[fetch]
+	prune = true
