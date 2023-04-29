@@ -1,3 +1,31 @@
+[alias]
+	a = add -u
+	aa = add --all
+	b = branch -a
+	bd = branch -d
+	c = checkout
+	cb = checkout -b
+	cl = clone
+	cm = commit -m
+	cma = commit --amend -m
+	cmn = commit --amend --no-edit
+	d = diff
+	ds = diff --staged
+	l = log --oneline -n
+	lg = log --oneline --all -n
+	p = pull
+	ps = push
+	psf = push -f
+	psu = push -u
+	r = rebase
+	ri = rebase -i
+	rmt = remote -v
+	rs = restore
+	rss = restore --staged
+	rst = reset
+	s = status
+	sh = show
+	st = stash
 [core]
 	autocrlf = input
 	editor = nano
