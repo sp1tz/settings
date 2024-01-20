@@ -8,7 +8,6 @@
 - [xclip](https://github.com/astrand/xclip/releases)
 
 #### GUI
-- [f.lux](https://justgetflux.com)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new)
 - [Steam](https://store.steampowered.com/about)
 - [Sublime Text](https://www.sublimetext.com/download)
