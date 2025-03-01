@@ -11,13 +11,17 @@
 	cm = commit -m
 	cma = commit --amend -m
 	cmn = commit --amend --no-edit
+	cp = cherry-pick
 	d = diff
 	ds = diff --staged
+	dsw = diff --staged --word-diff
+	dw = diff --word-diff
 	l = log --oneline -n
 	lg = log --oneline --all -n
 	p = pull
+	pf = pull -f
 	ps = push
-	psf = push -f
+	psf = push --force-with-lease
 	psu = push -u origin
 	r = rebase
 	ri = rebase -i
@@ -28,14 +32,20 @@
 	s = status
 	sh = show
 	st = stash
+[column]
+	ui = auto
 [core]
 	autocrlf = input
 	editor = nano
 	excludesfile = ~/.gitignore
 [fetch]
+	all = true
 	prune = true
+	pruneTags = true
 [pull]
 	rebase = true
+[push]
+	followTags = true
 [user]
 	email = 42953063+sp1tz@users.noreply.github.com
 	name = sp1tz
