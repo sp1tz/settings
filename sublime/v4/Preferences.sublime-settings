@@ -60,7 +60,7 @@
   "gutter": true,
 
   // Spacing between the gutter and the text
-  "margin": 2,
+  "margin": 1,
 
   // Fold buttons are the triangles shown in the gutter to fold regions of text
   "fold_buttons": true,
@@ -72,7 +72,7 @@
   // - true: Enables modified line indicators on all files
   // - "auto": Enables modified line indicators on tracked files within Git
   // - false: Disables modified line indicators
-  "mini_diff": true,
+  "mini_diff": "auto",
 
   // Columns in which to display vertical rulers
   "rulers": [],
@@ -558,7 +558,7 @@
   "native_tabs": "system",
 
   // Valid values are "system", "enabled" and "disabled"
-  "overlay_scroll_bars": "system",
+  "overlay_scroll_bars": "disabled",
 
   // Allows tabs to scroll left and right, instead of simply shrinking
   "enable_tab_scrolling": true,
@@ -727,7 +727,7 @@
   // - false: Never preview
   // - "only_left": Only preview on left click, right click will change the
   //                selection but not preview the file.
-  "preview_on_click": true,
+  "preview_on_click": "only_left",
 
   // Controls the maximum number of lines kept in the console's history. Note
   // a large limit will increase memory usage. Use 0 to remove any limit.
@@ -744,7 +744,7 @@
 
   // File indexing parses all files in the side bar, and builds an index of
   // their symbols. This is required for Goto Definition to work.
-  "index_files": true,
+  "index_files": false,
 
   // Set the number threads to use for indexing. A value of 0 will make
   // Sublime Text guess based on the number of cores. Use the index_files
@@ -755,7 +755,7 @@
   "index_exclude_gitignore": true,
 
   // Whether unknown file extensions should be checked for indexing or skipped
-  // entirely. If a file extension is not being recognised we suggest
+  // entirely. If a file extension is not being recognized we suggest
   // setting/changing the default syntax for that extension instead of turning
   // this setting off.
   "index_skip_unknown_extensions": true,
@@ -783,6 +783,7 @@
 
   // List any packages to ignore here. When removing entries from this list,
   // a restart may be required if the package contains plugins.
-  "ignored_packages": ["Vintage",
+  "ignored_packages": ["Package Control",
+    "Vintage",
   ],
 }
