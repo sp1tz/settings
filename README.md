@@ -1,11 +1,15 @@
 ## Apps
 
 #### CLI
-- [aspell](https://github.com/GNUAspell/aspell/releases)
+- [aspell](https://github.com/GNUAspell/aspell)
+- [curl](https://github.com/curl/curl)
+- [jq](https://github.com/jqlang/jq)
 - [nano](https://www.nano-editor.org/dist)
 - [nvm](https://github.com/nvm-sh/nvm)
-- [tmux](https://github.com/tmux/tmux/releases)
-- [xclip](https://github.com/astrand/xclip/releases)
+- [shellcheck](https://github.com/koalaman/shellcheck)
+- [sshfs](https://github.com/libfuse/sshfs)
+- [tmux](https://github.com/tmux/tmux)
+- [xclip](https://github.com/astrand/xclip)
 
 #### GUI
 - [Firefox](https://www.mozilla.org/en-US/firefox/new)
